@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ReverseArrayOfStrings", "04.ReverseArrayOfStrings\04.ReverseArrayOfStrings.csproj", "{5B997D42-0797-4C8C-ADCD-0EE3DD60F57C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B997D42-0797-4C8C-ADCD-0EE3DD60F57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B997D42-0797-4C8C-ADCD-0EE3DD60F57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B997D42-0797-4C8C-ADCD-0EE3DD60F57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B997D42-0797-4C8C-ADCD-0EE3DD60F57C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {553B82BE-0498-4E73-A39E-68228DEEC202}
+	EndGlobalSection
+EndGlobal
