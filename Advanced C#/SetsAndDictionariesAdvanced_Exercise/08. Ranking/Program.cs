@@ -10,7 +10,7 @@ namespace _08._Ranking
         {
             string[] input = Console.ReadLine().Split(':', StringSplitOptions.RemoveEmptyEntries);
             Dictionary<string, string> contests = new Dictionary<string, string>();
-            Dictionary<string, Dictionary<string, int>> competitors = new Dictionary<string, Dictionary<string, int>>();
+            SortedDictionary<string, Dictionary<string, int>> competitors = new SortedDictionary<string, Dictionary<string, int>>();
 
             while (input[0] != "end of contests")
             {
@@ -36,38 +36,31 @@ namespace _08._Ranking
                     {
                         competitors.Add(competitorName, new Dictionary<string, int>());
                     }
-                    if(!competitors[competitorName].ContainsKey(contestName))
+                    if (!competitors[competitorName].ContainsKey(contestName))
                     {
                         competitors[competitorName].Add(contestName, 0);
                     }
-                    competitors[competitorName][contestName] = points;
+                    if (competitors[competitorName][contestName] < points)
+                    {
+                        competitors[competitorName][contestName] = points;
+                    }
                 }
 
                 input = Console.ReadLine().Split("=>", StringSplitOptions.RemoveEmptyEntries);
             }
 
-            competitors = competitors.OrderBy(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
-            int sum = 0;
-            int max = 0;
-            string bestName = string.Empty;
-
-            Console.WriteLine($"Best candidate is {bestName} with total {max} points.");
+            string bestCompetitor = competitors.OrderByDescending(x => x.Value.Values.Sum()).First().Key;
+            int bestCandidatePoints = competitors[bestCompetitor].Values.Sum();
+            Console.WriteLine($"Best candidate is {bestCompetitor} with total {bestCandidatePoints} points.");
+            Console.WriteLine("Ranking:");
 
             foreach (var competitor in competitors)
             {
-                Console.WriteLine("Ranking:");
                 Console.WriteLine($"{competitor.Key}");
-                foreach (var competition in competitor.Value)
+                var orderedPoints = competitor.Value.OrderByDescending(x => x.Value);
+                foreach (var competition in orderedPoints)
                 {
-                    Console.WriteLine($"# {competition.Key} -> {competition.Value}");
-                    sum += competition.Value;
-                }
-
-                if (sum > max)
-                {
-                    max = sum;
-                    sum = 0;
-                    bestName = competitor.Key;
+                    Console.WriteLine($"#  {competition.Key} -> {competition.Value}");
                 }
             }
         }
