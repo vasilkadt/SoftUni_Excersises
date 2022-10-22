@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ListyIterator", "01.ListyIterator\01.ListyIterator.csproj", "{6CF887BB-DAA3-4A27-A003-D60995869E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Collection", "02.Collection\02.Collection.csproj", "{28A85310-DE19-4E14-B30C-D9FE7D563F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Stack", "03.Stack\03.Stack.csproj", "{A20D76E3-17E0-448C-A036-8781559DE173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Froggy", "04.Froggy\04.Froggy.csproj", "{E61CB9C9-6FD5-4D9A-98C1-C7A43863F0D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ComparingObjects", "05.ComparingObjects\05.ComparingObjects.csproj", "{772E0FD6-DD98-491B-93F1-9D379E173563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.EqualityLogic", "06.EqualityLogic\06.EqualityLogic.csproj", "{D1FD963A-7FED-4BD5-9265-3E3A1CA7D365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.CustomComparator", "07.CustomComparator\07.CustomComparator.csproj", "{9D547E33-EE0A-44F0-BAC5-D515F151CD3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CF887BB-DAA3-4A27-A003-D60995869E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF887BB-DAA3-4A27-A003-D60995869E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF887BB-DAA3-4A27-A003-D60995869E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF887BB-DAA3-4A27-A003-D60995869E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A85310-DE19-4E14-B30C-D9FE7D563F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A85310-DE19-4E14-B30C-D9FE7D563F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A85310-DE19-4E14-B30C-D9FE7D563F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A85310-DE19-4E14-B30C-D9FE7D563F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20D76E3-17E0-448C-A036-8781559DE173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20D76E3-17E0-448C-A036-8781559DE173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20D76E3-17E0-448C-A036-8781559DE173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20D76E3-17E0-448C-A036-8781559DE173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61CB9C9-6FD5-4D9A-98C1-C7A43863F0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61CB9C9-6FD5-4D9A-98C1-C7A43863F0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61CB9C9-6FD5-4D9A-98C1-C7A43863F0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61CB9C9-6FD5-4D9A-98C1-C7A43863F0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772E0FD6-DD98-491B-93F1-9D379E173563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772E0FD6-DD98-491B-93F1-9D379E173563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772E0FD6-DD98-491B-93F1-9D379E173563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772E0FD6-DD98-491B-93F1-9D379E173563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FD963A-7FED-4BD5-9265-3E3A1CA7D365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FD963A-7FED-4BD5-9265-3E3A1CA7D365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FD963A-7FED-4BD5-9265-3E3A1CA7D365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FD963A-7FED-4BD5-9265-3E3A1CA7D365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D547E33-EE0A-44F0-BAC5-D515F151CD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D547E33-EE0A-44F0-BAC5-D515F151CD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D547E33-EE0A-44F0-BAC5-D515F151CD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D547E33-EE0A-44F0-BAC5-D515F151CD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8109E2F2-E02E-493B-902A-F4DE312F0153}
+	EndGlobalSection
+EndGlobal
